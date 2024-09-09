@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.nav {
+    width: 100%;
+    height: 50px;
+}
+
+.main {
+    padding: 0px 30px;
+}
+
+hr {
+    border-top: 1px solid #f1f1f1;
+}
+
+.app-card {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 95%;
+}
+
+.app-icon img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.app-details {
+    margin-left: 20px;
+}
+
+.app-details h1 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #333;
+}
+
+.app-details p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.ratings {
+    display: flex;
+    align-items: center;
+}
+
+.ratingS {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #333;
+}
+
+.stars {
+    color: #ffcc00;
+}
+
+.price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #1589ff;
+    margin-top: 10px;
+}
+
+.slider {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.slides {
+    display: flex;
+    transition: 0.5s ease;
+}
+
+.slide {
+    min-width: 100%;
+    transition: 0.5s;
+}
+
+.arrows {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.prev, .next {
+    font-size: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 50%;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#description {
+    color: #666;
+    font-size: 0.9em;
+}
+
+#description ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#description li {
+    margin-bottom: 10px;
+}
+
+#description strong {
+    font-size: 1.1em;
+    color: #333;
+}
+
+#moreText {
+    display: none;
+}
+
+#moreText.show {
+    display: block;
+}
+
+.lightH {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: -15px;
+}
+
+.boldH {
+    font-size: 16px;
+    font-weight: 600;
+    color: #111;
+}
+
+.link {
+    color: #1589ff;
+    font-size: 18px;
+    margin: -2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.arrow {
+    font-size: 23px;
+    font-weight: normal;
+}
+
+footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.download-btn {
+    color: white;
+    font-weight: bold;
+    background: black;
+    text-align: center;
+    border: 2px solid black;
+    padding: 7px 100px;
+    border-radius: 20px;
+}
+
+.download-btn:hover {
+    background: #333;
+}
+
+bx {
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
