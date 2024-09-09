@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KBC Champions | BUG REPORT</title>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            width: 100vw;
+        }
+        .nav {
+            width: 100%;
+            height: 45px;
+        }
+        .main {
+            padding: 0px 30px;
+        }
+        hr {
+           border-top: 1px solid #f1f1f1;
+        }
+     .form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.form-group label span {
+    color: red;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #333;
+}
+     footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 0px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+    </style>
+</head>
+<body>
+    <img class="nav" src="nav.jpg" alt="">
+    <div class="main">
+        <h3> KBC Champions | Report A Bug</h3>
+        <hr>
+         <div class="form-container">
+        <form action="#" method="post">
+            <h2>Bug Report Form</h2>
+            <div class="form-group">
+                <label for="name">Name<span>*</span></label>
+                <input type="text" id="name" name="name" placeholder="Enter your Name here" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email<span>*</span></label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address here" required>
+            </div>
+            <div class="form-group">
+                <label for="bug">Describe Bug/Glitch Occurred<span>*</span></label>
+                <textarea id="bug" name="bug" rows="6" placeholder="Describe the Bug or Glitch you have faced in Brief here" required></textarea>
+            </div>
+            <button type="submit">Submit Report</button>
+        </form>
+    </div>
+       </div><br><br><br>
+        <footer>
+        <p>&copy; 2024 Game Studioz. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
