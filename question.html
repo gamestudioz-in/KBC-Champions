@@ -105,7 +105,8 @@
         <div class="form-container">
         <h2>Upload Question</h2>
           <p style="color: red;">All Fields are Required</p>
-        <form action="/submit" method="POST">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="7af9a584-a659-467a-8f07-4255609648ac">
             <label for="question">Question:</label>
             <textarea id="question" name="question" rows="3" placeholder="Enter the question here..." required></textarea>
 
