@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KBC Champions | Downloads</title>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            width: 100vw;
+        }
+        .nav {
+            width: 100%;
+            height: 45px;
+        }
+        .main {
+            padding: 0px 30px;
+        }
+        hr {
+           border-top: 1px solid #f1f1f1;
+        }
+       .form-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 350px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-top: 10px;
+            color: #555;
+        }
+
+        input, textarea, select {
+            margin-top: 5px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            outline: none;
+            transition: border 0.3s;
+        }
+
+        input::placeholder, 
+        textarea::placeholder {
+            color: #888;
+        }
+
+        textarea {
+            resize: none;
+        }
+
+        input:focus, 
+        textarea:focus, 
+        select:focus {
+            border-color: green;
+            outline: none;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+     
+     footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 0px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+    </style>
+</head>
+<body>
+    <img class="nav" src="nav.jpg" alt="">
+    <div class="main">
+        <h3><i style="color: black; font-size: 30px;" class='bx bx-link'></i> New Question Form</h3>
+        <hr>
+        <div class="form-container">
+        <h2>Upload Question</h2>
+          <p style="color: red;">All Fields are Required</p>
+        <form action="/submit" method="POST">
+            <label for="question">Question:</label>
+            <textarea id="question" name="question" rows="3" placeholder="Enter the question here..." required></textarea>
+
+            <label for="optionA">Option A:</label>
+            <input type="text" id="optionA" name="optionA" placeholder="Enter Option A" required>
+
+            <label for="optionB">Option B:</label>
+            <input type="text" id="optionB" name="optionB" placeholder="Enter Option B" required>
+
+            <label for="optionC">Option C:</label>
+            <input type="text" id="optionC" name="optionC" placeholder="Enter Option C" required>
+
+            <label for="optionD">Option D:</label>
+            <input type="text" id="optionD" name="optionD" placeholder="Enter Option D" required>
+
+            <label for="correctAnswer">Correct Answer:</label>
+            <select id="correctAnswer" name="correctAnswer" required>
+                <option value="" disabled selected>Select Correct Option</option>
+                <option value="A">Option A</option>
+                <option value="B">Option B</option>
+                <option value="C">Option C</option>
+                <option value="D">Option D</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+       </div><br><br><br>
+        <footer>
+        <p>&copy; 2024 Game Studioz. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
