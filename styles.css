@@ -48,7 +48,15 @@ hr {
     margin: 5px 0;
     color: #666;
 }
-
+#versionP {
+    margin-top: -17px;
+    color: #666;
+    font-size: 14px;
+}
+#versionD {
+    color: #666;
+    font-size: 0.9em;
+}
 .ratings {
     display: flex;
     align-items: center;
@@ -193,10 +201,56 @@ footer {
     background: #333;
 }
 
-bx {
-    color: white;
+#Vhistory {
+    color: #1589ff;
+    float: right;
+    font-size: 14px;
+    margin-top: -30px;
 }
-
+#v {
+    font-weight: bold;
+    float: left;
+    font-size: 14px;
+    color: #111;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+#date {
+    float: right;
+    color: #333;
+    font-size: 12px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#Close {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #f1f1f1;
+  color: #111;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bold;
+}
+ #VersionHistory {
+  position: fixed;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 50px);
+  background-color: white;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  z-index: 1000;
+}
+ #VMain {
+    margin: 30px;
+    overflow-y: auto;
+ }
 footer p {
     margin: 0;
 }
