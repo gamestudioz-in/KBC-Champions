@@ -1,4 +1,4 @@
- let currentIndex = 0;
+let currentIndex = 0;
 const slides = document.querySelectorAll('.slide');
 
 function showSlide(index) {
@@ -6,7 +6,7 @@ function showSlide(index) {
     else if (index < 0) currentIndex = slides.length - 1;
     else currentIndex = index;
 
-    document.querySelector('.slides').style.transform = translateX(-${currentIndex * 100}%);
+    document.querySelector('.slides').style.transform = `translateX(-${currentIndex * 100}%)`;
 }
 
 function nextSlide() {
@@ -35,12 +35,13 @@ function toggleDescription() {
         moreBtn.textContent = 'Show Less';
     }
 }
-    document.getElementById('Vhistory').addEventListener('click', function() {
-  document.getElementById('VersionHistory').style.display = 'block';
-        document.body.style.overflow = 'hidden';
+
+document.getElementById('Vhistory').addEventListener('click', function() {
+    document.getElementById('VersionHistory').style.display = 'block';
+    document.body.style.overflow = 'hidden';
 });
 
 document.getElementById('Close').addEventListener('click', function() {
-  document.getElementById('VersionHistory').style.display = 'none';
+    document.getElementById('VersionHistory').style.display = 'none';
     document.body.style.overflow = 'auto';
 });
