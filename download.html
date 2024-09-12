@@ -47,7 +47,20 @@
             border-radius: 20px;
             background: black;
         }
-
+       #sub2unlock {
+           color: #fff;
+           background: red;
+           font-size:14px;
+           font-weight: bold;
+           border: none;
+           padding: 5px 15px;
+           border-radius: 30px;
+           margin: 5px 0px;
+           text-align: center;
+       }
+       .Link1, .Link2, .Link3 {
+           display: none;
+       }
      
      footer {
     background-color: #111;
@@ -68,11 +81,16 @@
         <p class="note">Open any of the link to download KBC Champions.</p>
         <ol>
         <li><h4>KBC CHAMPIONS - MEDIAFIRE</h4>
-        <a href=""><i style="color: black; font-size: 20px;" class='bx bx-link'></i>Coming Soon!</a></li><hr>
+        <a class="MLink" onclick="showLink()"><i style="color: black; font-size: 20px;" class='bx bx-link'></i>KBC Champions.zip [mediafire]</a></li>
+       <a href="https://youtube.com/@gamestudioz" target="_blank" id="subscribeBtn"><button onclick="unlockLink(event)" id="sub2unlock" class="Link1" data-value="mediafire"><i style="color: white; font-size: 16px;" class='bx bxs-lock-alt' id='Licon'></i>Subscribe to Unlock</button></a>
+        <hr>
         <li><h4>KBC CHAMPIONS - GOOGLE DRIVE</h4>
-        <a href=""><i style="color: black; font-size: 20px;" class='bx bx-link'></i>Coming Soon!</a></li>
+       <a class="GLink" onclick="showLink()"><i style="color: black; font-size: 20px;" class='bx bx-link'></i>KBC Champions.zip [google drive]</a></li>
+        <a href="https://youtube.com/@gamestudioz" target="_blank" id="subscribeBtn"><button onclick="unlockLink(event)" id="sub2unlock" class="Link2" data-value="googleDrive"><i style="color: white; font-size: 16px;" class='bx bxs-lock-alt' id='Licon'></i>Subscribe to Unlock</button></a>
+        <hr>
         <li><h4>KBC CHAMPIONS - DROPBOX</h4>
-        <a href=""><i style="color: black; font-size: 20px;" class='bx bx-link'></i>Coming Soon!</a></li>
+        <a class="DLink" onclick="showLink()"><i style="color: black; font-size: 20px;" class='bx bx-link'></i>KBC Champions.zip [dropbox]</a></li>
+        <a href="https://youtube.com/@gamestudioz" target="_blank" id="subscribeBtn"><button onclick="unlockLink(event)" id="sub2unlock" class="Link3" data-value="dropbox"><i style="color: white; font-size: 16px;" class='bx bxs-lock-alt' id='Licon'></i>Subscribe to Unlock</button></a>
         </ol>
         <hr><br>
         <div id="credits">
@@ -83,6 +101,6 @@
         <footer>
         <p>&copy; 2024 Game Studioz. All rights reserved.</p>
     </footer>
-
+    <script src="download.js"></script>
 </body>
 </html>
