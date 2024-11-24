@@ -28,7 +28,7 @@ function showLink() {
         clickedButton.innerHTML = "<i style='color: white; font-size: 16px;' class='bx bxs-lock-open-alt'></i> Get Link";
     clickedButton.style.background = 'green';
         if (btnValue === 'mediafire') {
-            parentLink.href = 'https://www.mediafire.com/file/84azyn3puzg9dj4/KBC_Champions%255B1.1%255D.apk/file';
+            parentLink.href = 'https://www.mediafire.com/file/3zipl2jwsk3ppht/KBC_Champions%255B1.2%255D.apk/file';
         } 
         else if (btnValue === 'dropbox') {
             parentLink.href = 'https://www.dropbox.com/scl/fi/b5ldf7cb3jat1aulplrcv/KBC-Champions-1.1.apk';
