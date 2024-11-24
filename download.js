@@ -34,7 +34,7 @@ function showLink() {
             parentLink.href = 'https://www.dropbox.com/scl/fi/ffdxf73ugfct6aplay5g9/KBC-Champions-1.2.apk';
         } 
         else {
-            parentLink.href = 'https://www.mediafire.com/file/84azyn3puzg9dj4/KBC_Champions%255B1.1%255D.apk/file';
+            parentLink.href = 'https://mega.nz/file/PZ1lwRZA#9evqUn8nj5H2VbDRQo0BqrkNnDK-jimRWzVOH_qhOEw';
         }
     }, 5000);
 }
