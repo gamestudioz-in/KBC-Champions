@@ -28,13 +28,13 @@ function showLink() {
         clickedButton.innerHTML = "<i style='color: white; font-size: 16px;' class='bx bxs-lock-open-alt'></i> Get Link";
     clickedButton.style.background = 'green';
         if (btnValue === 'mediafire') {
-            parentLink.href = 'https://www.mediafire.com/file/3zipl2jwsk3ppht/KBC_Champions%255B1.2%255D.apk/file';
+            parentLink.href = 'https://www.mediafire.com/file/j7nz1daaammen8i/KBC_Champions_%255B1.3%255D.apk/file';
         } 
         else if (btnValue === 'dropbox') {
-            parentLink.href = 'https://www.dropbox.com/scl/fi/ffdxf73ugfct6aplay5g9/KBC-Champions-1.2.apk';
+            parentLink.href = 'https://www.dropbox.com/scl/fi/4xxpute4rsy6p4fo6huzd/KBC-Champions-1.3.apk';
         } 
         else {
-            parentLink.href = 'https://mega.nz/file/PZ1lwRZA#9evqUn8nj5H2VbDRQo0BqrkNnDK-jimRWzVOH_qhOEw';
+            parentLink.href = 'https://mega.nz/file/PFFEBSpJ#WEyjx8_1Q_ujs3bWV4m6O1INlhld5G01F64Z6hdKCPE';
         }
     }, 5000);
 }
